@@ -42,7 +42,7 @@ class _SearchSteamUser extends State<SearchSteamUser> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
               _TextField(
-                  label: 'Steam ID',
+                  label: 'Dota 2 Steam ID',
                   hint: 'Input your Steam ID',
                   onChanged: (steamID) {
                     setState(() {
@@ -71,7 +71,6 @@ class _SearchSteamUser extends State<SearchSteamUser> {
                         error = false;
                       });
                     } catch (e) {
-                      print(e);
                       setState(() {
                         error = true;
                         loading = false;

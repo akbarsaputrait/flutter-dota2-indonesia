@@ -72,7 +72,7 @@ class _LiveDotaMatchesState extends State<LiveDotaMatches> {
             options: CarouselOptions(
               height: 260.0,
               autoPlay: true,
-              autoPlayInterval: Duration(seconds: 3),
+              autoPlayInterval: Duration(seconds: 5),
               enableInfiniteScroll: false,
               viewportFraction: 0.8,
             ),
